@@ -1,5 +1,5 @@
 {
-    "sketch": "app.ino",
+    "sketch": "src/app/arduino-gyro.ino",
     "board": "arduino:avr:mega",
     "configuration": "cpu=atmega2560",
     "port": "/dev/ttyACM0"
