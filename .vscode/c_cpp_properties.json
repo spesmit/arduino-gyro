@@ -1,16 +1,37 @@
 {
-    "version": 3,
+    "version": 4,
     "configurations": [
         {
             "name": "Linux",
             "includePath": [
-                "/opt/arduino-1.8.5/hardware/arduino/avr/cores/arduino"
+                "/opt/arduino-1.8.5/hardware/arduino/avr/cores/arduino/",
+                "/opt/arduino-1.8.5/hardware/arduino/avr/libraries/EEPROM/",
+                "/opt/arduino-1.8.5/hardware/arduino/avr/libraries/SPI/",
+                "/opt/arduino-1.8.5/hardware/arduino/avr/libraries/SoftwareSerial/",
+                "/opt/arduino-1.8.5/hardware/arduino/avr/libraries/Wire/",
+                "/opt/arduino-1.8.5/hardware/tools/avr/avr/include/",
+                "/opt/arduino-1.8.5/hardware/tools/avr/avr/include/avr/",
+                "/opt/arduino-1.8.5/hardware/tools/avr/avr/include/compat/",
+                "/opt/arduino-1.8.5/hardware/tools/avr/avr/include/util/",
+                "/opt/arduino-1.8.5/hardware/tools/avr/lib/gcc/avr/4.*.*/include/",
+                "/opt/arduino-1.8.5/hardware/tools/avr/lib/gcc/avr/4.*.*/include-fixed/"
             ],
             "browse": {
                 "limitSymbolsToIncludedHeaders": false,
                 "path": [
-                    "/opt/arduino-1.8.5/hardware/arduino/avr/cores/arduino"
-                ]
+                    "/opt/arduino-1.8.5/hardware/arduino/avr/cores/arduino/",
+                    "/opt/arduino-1.8.5/hardware/arduino/avr/libraries/EEPROM/",
+                    "/opt/arduino-1.8.5/hardware/arduino/avr/libraries/SPI/",
+                    "/opt/arduino-1.8.5/hardware/arduino/avr/libraries/SoftwareSerial/",
+                    "/opt/arduino-1.8.5/hardware/arduino/avr/libraries/Wire/",
+                    "/opt/arduino-1.8.5/hardware/tools/avr/avr/include/",
+                    "/opt/arduino-1.8.5/hardware/tools/avr/avr/include/avr/",
+                    "/opt/arduino-1.8.5/hardware/tools/avr/avr/include/compat/",
+                    "/opt/arduino-1.8.5/hardware/tools/avr/avr/include/util/",
+                    "/opt/arduino-1.8.5/hardware/tools/avr/lib/gcc/avr/4.*.*/include/",
+                    "/opt/arduino-1.8.5/hardware/tools/avr/lib/gcc/avr/4.*.*/include-fixed/"
+                ],
+                "databaseFilename": ""
             },
             "intelliSenseMode": "clang-x64"
         }
